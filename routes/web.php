@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Cars\NewCar;
+use App\Http\Livewire\Counter;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/counter', Counter::class);
+Route::get('/new-car', NewCar::class);
