@@ -21,3 +21,7 @@ Route::get('/', function () {
 
 Route::get('/counter', Counter::class);
 Route::get('/new-car', NewCar::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

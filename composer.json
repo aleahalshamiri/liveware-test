@@ -6,11 +6,16 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "doctrine/dbal": "^3.3",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "infyomlabs/coreui-templates": "^1.0",
+        "infyomlabs/laravel-generator": "^3.1",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.4",
+        "laravelcollective/html": "^6.2",
         "livewire/livewire": "^2.10"
     },
     "require-dev": {
